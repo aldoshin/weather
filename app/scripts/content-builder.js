@@ -1,5 +1,7 @@
 'use strict';
 
+//We could have use the document.getSelector or other
+// to set the content but we can think on this as a very simple template
 const getContent = (response) => {
     let current = response.weather[0];
     return `

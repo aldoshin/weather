@@ -1,5 +1,6 @@
 'use strict';
 
+//Wraps the http request in a Promise 
 export function get(url) {
     return new Promise(
         function(resolve, reject) {
